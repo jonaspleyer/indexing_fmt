@@ -14,14 +14,9 @@ use indexing_fmt::*;
 
 let index = 12;
 let name = format!("Ship{}", index.to_superscript());
-
 assert_eq!(name, "Ship¹²");
-```
-```
-use indexing_fmt::*;
 
 let index = 840;
 let name = format!("Docking-Bay{}", index.to_subscript());
-
 assert_eq!(name, "Docking-Bay₈₄₀");
 ```
